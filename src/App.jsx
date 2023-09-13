@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import {puppyList} from './data.js'
 import './App.css'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import './index.css'
+
 
 
 function App() {
@@ -15,6 +15,10 @@ function App() {
 
   const featuredPup = puppies.find((pup) => pup.id === featPupId);
   console.log(featuredPup);
+  
+function handleClick() {
+    // some logic here
+  }
 
   // const [count, setCount] = useState(0)
 
